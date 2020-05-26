@@ -33,5 +33,16 @@
   src: url("Police/Michaelmas V3.eot");
   src: url("Police/Michaelmas V3.eot?#iefix") format("embedded-opentype"), url("Police/Michaelmas V3.woff2") format("woff2"), url("Police/Michaelmas V3.woff") format("woff"), url("Police/Michaelmas V3.ttf") format("truetype"), url("Police/Michaelmas V3.svg#Michaelmas V3") format("svg");
 }
+/*couleur*/
+/*sur toutes les pages*/
+header {
+  font-family: familiar_probold, Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  background-color: #579c87;
+  color: #ffcc44;
+  text-align: center;
+  padding: 1px;
+  font-size: 20px;
+}
 
 /*# sourceMappingURL=Style.css.map */

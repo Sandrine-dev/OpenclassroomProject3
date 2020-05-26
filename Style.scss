@@ -73,3 +73,15 @@ $Peche: #fcdfdb;
 $Rose: #fff5fe;
 $Gris: #f9f9f9;
 
+/*sur toutes les pages*/
+
+header
+{
+    font-family: familiar_probold, Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    background-color: $Vert;
+    color: $Jaune;
+    text-align: center;
+    padding: 1px;
+    font-size: 20px;
+}
