@@ -35,14 +35,30 @@
 }
 /*couleur*/
 /*sur toutes les pages*/
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 header {
-  font-family: familiar_probold, Arial, Helvetica, sans-serif;
-  font-weight: bolder;
   background-color: #579c87;
   color: #ffcc44;
   text-align: center;
-  padding: 1px;
+  font-family: familiar_probold, Arial, Helvetica, sans-serif;
   font-size: 20px;
+  padding: 1px;
+}
+
+footer {
+  background-color: #579c87;
+  color: #ffcc44;
+  position: fixed;
+  bottom: 0;
+  padding: 15px 10px;
+  font-weight: bold;
+  justify-content: space-between;
+  display: flex;
+  right: 8px;
+  left: 8px;
 }
 
 /*# sourceMappingURL=Style.css.map */
