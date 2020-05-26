@@ -1,0 +1,19 @@
+{
+  "name": "projet3",
+  "version": "1.0.0",
+  "description": "Site ohmyfood",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./Style.scss:./Style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sandrine-dev/OpenclassroomProject3.git"
+  },
+  "author": "Sandrine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sandrine-dev/OpenclassroomProject3/issues"
+  },
+  "homepage": "https://github.com/Sandrine-dev/OpenclassroomProject3#readme"
+}
