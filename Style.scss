@@ -107,3 +107,18 @@ footer
     right: 8px;
     left: 8px;
 }
+
+/*Page Index*/
+#index
+{
+
+}
+
+button
+{
+    @include head-foot;
+    border: 1px solid $Vert;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 0px 25px;
+}

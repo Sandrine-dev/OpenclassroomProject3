@@ -61,4 +61,14 @@ footer {
   left: 8px;
 }
 
+/*Page Index*/
+button {
+  background-color: #579c87;
+  color: #ffcc44;
+  border: 1px solid #579c87;
+  border-radius: 15px;
+  font-size: 20px;
+  padding: 0px 25px;
+}
+
 /*# sourceMappingURL=Style.css.map */
