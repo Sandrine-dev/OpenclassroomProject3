@@ -65,6 +65,9 @@
     url("Police/Michaelmas V3.svg#Michaelmas V3") format("svg");
 }
 
+/*Les keyfarmes*/
+
+
 /*couleur*/
 
 $Jaune: #ffcc44;
@@ -73,7 +76,7 @@ $Peche: #fcdfdb;
 $Rose: #fff5fe;
 $Gris: #f9f9f9;
 
-/*sur toutes les pages*/
+/*Mixin*/
 
 @mixin head-foot 
 {
@@ -81,10 +84,13 @@ $Gris: #f9f9f9;
     color: $Jaune;
 }
 
-*
-{
-    font-family: Arial, Helvetica, sans-serif;
+@mixin Box-menu {
+    box-shadow: 5px 1px 10px 1px lightgrey;
+    margin: 30px;
+    padding: 80px 25px;
 }
+
+/*sur toutes les pages*/
 
 header
 {
@@ -106,12 +112,58 @@ footer
     display: flex;
     right: 8px;
     left: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    a{
+        text-decoration: none;
+        color: $Jaune;
+        &:hover{    
+        }
+    }
 }
 
 /*Page Index*/
 #index
 {
+    text-align: center;
+    font-size: 20px;
 
+    
+    #Menu1{
+        background-color: $Peche;
+        font-family: Devonshire-Regular, Arial, Helvetica, sans-serif;
+        @include Box-menu;
+        h1{
+            font-family: cursive;
+            font-weight: normal;
+        }
+    }
+    
+    #Menu2{
+        background-color: $Rose;
+        font-family: Croissant One, Arial, Helvetica, sans-serif;
+        @include Box-menu;
+    }
+    
+    #Menu3{
+        background-color: $Gris;
+        font-family: akaDora, Arial, Helvetica, sans-serif;
+        @include Box-menu;
+        h1{
+            font-family: cursive;
+            font-weight: normal;
+        }
+    }
+    
+    #Menu4{
+        background-color: white;
+        font-family: Kaushan Script, Arial, Helvetica, sans-serif;
+        @include Box-menu;
+        h1{
+            font-family: cursive;
+            font-weight: normal;
+        }
+    }
 }
 
 button

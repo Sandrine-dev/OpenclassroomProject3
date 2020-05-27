@@ -33,12 +33,10 @@
   src: url("Police/Michaelmas V3.eot");
   src: url("Police/Michaelmas V3.eot?#iefix") format("embedded-opentype"), url("Police/Michaelmas V3.woff2") format("woff2"), url("Police/Michaelmas V3.woff") format("woff"), url("Police/Michaelmas V3.ttf") format("truetype"), url("Police/Michaelmas V3.svg#Michaelmas V3") format("svg");
 }
+/*Les keyfarmes*/
 /*couleur*/
+/*Mixin*/
 /*sur toutes les pages*/
-* {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 header {
   background-color: #579c87;
   color: #ffcc44;
@@ -59,9 +57,59 @@ footer {
   display: flex;
   right: 8px;
   left: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+footer a {
+  text-decoration: none;
+  color: #ffcc44;
+}
+/*Page Index*/
+#index {
+  text-align: center;
+  font-size: 20px;
+}
+#index #Menu1 {
+  background-color: #fcdfdb;
+  font-family: Devonshire-Regular, Arial, Helvetica, sans-serif;
+  box-shadow: 5px 1px 10px 1px lightgrey;
+  margin: 30px;
+  padding: 80px 25px;
+}
+#index #Menu1 h1 {
+  font-family: cursive;
+  font-weight: normal;
+}
+#index #Menu2 {
+  background-color: #fff5fe;
+  font-family: Croissant One, Arial, Helvetica, sans-serif;
+  box-shadow: 5px 1px 10px 1px lightgrey;
+  margin: 30px;
+  padding: 80px 25px;
+}
+#index #Menu3 {
+  background-color: #f9f9f9;
+  font-family: akaDora, Arial, Helvetica, sans-serif;
+  box-shadow: 5px 1px 10px 1px lightgrey;
+  margin: 30px;
+  padding: 80px 25px;
+}
+#index #Menu3 h1 {
+  font-family: cursive;
+  font-weight: normal;
+}
+#index #Menu4 {
+  background-color: white;
+  font-family: Kaushan Script, Arial, Helvetica, sans-serif;
+  box-shadow: 5px 1px 10px 1px lightgrey;
+  margin: 30px;
+  padding: 80px 25px;
+}
+#index #Menu4 h1 {
+  font-family: cursive;
+  font-weight: normal;
 }
 
-/*Page Index*/
 button {
   background-color: #579c87;
   color: #ffcc44;
