@@ -71,38 +71,66 @@
 /*couleur*/
 
 $Jaune: #ffcc44;
-$Vert: #579c87;
+$VertF: #579c87;
 $Peche: #fcdfdb;
 $Rose: #fff5fe;
 $Gris: #f9f9f9;
 $Marron: #3d1219;
-$Orangm: #c67412;
-$Violet: #6e4ccc;
+$Orange: #e6962e;
+$Bleu: #1a91fa;
+$Vertlight: #7ec75e;
+
 
 
 /*Mixin*/
 
 @mixin head-foot 
 {
-    background-color: $Vert;
+    background-color: $VertF;
     color: $Jaune;
 }
 
 @mixin Box-menu {
     box-shadow: 5px 1px 10px 1px lightgrey;
     padding: 75px 15px;
-    width: 250px;
+    width: 200px;
     margin: 15px;
     justify-content: flex;
     flex-direction: column;
+}
+
+@mixin menu1 {
+    background: linear-gradient(to right, #f05160, #f6916a);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+@mixin menu2 {
+    background-image: linear-gradient(to right, #e6962e, #905cff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+@mixin menu3 {
+    background-image: linear-gradient(to right, #2451e4, #1a91fa);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+@mixin menu4 {
+    background-image: linear-gradient(to right, #61ad54, #bdfe7e);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 
 
 
 
 /*sur toutes les pages*/
-
-
 
 header /*finit*/
 {
@@ -112,8 +140,6 @@ header /*finit*/
     font-size: 20px;
     padding: 1px;
 }
-
-
 
 footer /* manque animation*/
 {
@@ -147,6 +173,9 @@ footer /* manque animation*/
 
     #PresentaionM{
         display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: center;
         justify-content: center;
     }
 
@@ -156,9 +185,10 @@ footer /* manque animation*/
         @include Box-menu;
         i{
             font-size: 30px;
+            @include menu1;
         }
-        h1 + p {
-            clear: both;
+        h1, p {
+            color: $Marron;
         }
         h1{
             font-family: cursive;
@@ -168,30 +198,31 @@ footer /* manque animation*/
     
 
 
-
-
-
-
-
-
-
-
-
-
-
     #Menu2{
         background-color: $Rose;
+        color: $Orange;
         font-family: Croissant One, Arial, Helvetica, sans-serif;
         @include Box-menu;
+        p{
+            font-size: 15px;
+            @include menu2;
+        }
+        h1{
+            font-weight: normal;
+        }
     }
     
     #Menu3{
         background-color: $Gris;
         font-family: akaDora, Arial, Helvetica, sans-serif;
         @include Box-menu;
+        p{
+            @include menu3;
+        }
         h1{
             font-family: cursive;
             font-weight: normal;
+            color: $Bleu;
         }
     }
     
@@ -199,9 +230,13 @@ footer /* manque animation*/
         background-color: white;
         font-family: Kaushan Script, Arial, Helvetica, sans-serif;
         @include Box-menu;
+        p{
+            @include menu4;
+        }
         h1{
             font-family: cursive;
             font-weight: normal;
+            color: $Vertlight;
         }
     }
 }
@@ -209,8 +244,26 @@ footer /* manque animation*/
 button
 {
     @include head-foot;
-    border: 1px solid $Vert;
+    border: 1px solid $VertF;
     border-radius: 15px;
     font-size: 20px;
     padding: 0px 25px;
+}
+
+
+/* Page Menu */
+
+.Titre
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#PremierMenu
+{
+    background-color: $Peche;
+    margin-bottom: 60px;
+    h2{
+        font-family: Devonshire-Regular, Arial, Helvetica, sans-serif;}
 }
