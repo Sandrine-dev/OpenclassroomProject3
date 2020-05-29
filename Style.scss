@@ -171,12 +171,14 @@ footer /* manque animation*/
 #index
 {
     font-size: 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 
     #PresentaionM{
         display: flex;
         flex-direction: column;
         align-content: center;
-        justify-content: center;
         align-items: center;
         #ligne1, #ligne2{
             display: flex;
