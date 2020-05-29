@@ -168,18 +168,22 @@ footer /* manque animation*/
 
 /*Page Index*/
 
+
 #index
 {
     font-size: 30px;
     align-items: center;
     display: flex;
     flex-direction: column;
+    padding-top: 15px;
+    padding-bottom: 55px;
 
     #PresentaionM{
         display: flex;
         flex-direction: column;
         align-content: center;
         align-items: center;
+        padding-bottom: 10px;
         #ligne1, #ligne2{
             display: flex;
             flex-direction: row;
@@ -211,7 +215,7 @@ footer /* manque animation*/
         font-family: Croissant One, Arial, Helvetica, sans-serif;
         @include Box-menu;
         p{
-            font-size: 15px;
+            font-size: 20px;
             @include menu2;
         }
         h1{
