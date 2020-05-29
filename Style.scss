@@ -91,9 +91,10 @@ $Vertlight: #7ec75e;
 }
 
 @mixin Box-menu {
-    box-shadow: 5px 1px 10px 1px lightgrey;
+    box-shadow: 0px 0px 10px 5px lightgrey;
     padding: 75px 15px;
-    width: 200px;
+    width: 300px;
+    height: 250px;
     margin: 15px;
     justify-content: flex;
     flex-direction: column;
@@ -258,12 +259,15 @@ button
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 20px;
+    text-align: center;
 }
 
 #PremierMenu
 {
     background-color: $Peche;
     margin-bottom: 60px;
+    width: 1024px;
+    text-align: center;
     h2{
         font-family: Devonshire-Regular, Arial, Helvetica, sans-serif;}
 }
