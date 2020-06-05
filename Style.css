@@ -76,7 +76,7 @@ header {
   background-color: #579c87;
   color: #ffcc44;
   text-align: center;
-  font-family: familiar_probold, Arial, Helvetica, sans-serif;
+  font-family: "familiar_probold", Arial, Helvetica, sans-serif;
   font-size: 20px;
   padding: 1px;
 }
@@ -125,7 +125,7 @@ footer a:hover {
 }
 #index #Menu1 {
   background-color: #fcdfdb;
-  font-family: Devonshire-Regular, Arial, Helvetica, sans-serif;
+  font-family: "Devonshire-Regular", Arial, Helvetica, sans-serif;
   box-shadow: 0px 0px 10px 5px lightgrey;
   padding: 75px 15px;
   width: 300px;
@@ -147,13 +147,13 @@ footer a:hover {
   color: #3d1219;
 }
 #index #Menu1 h1 {
-  font-family: cursive;
+  font-family: "Segoe Print", Arial, Helvetica, sans-serif;
   font-weight: normal;
 }
 #index #Menu2 {
   background-color: #fff5fe;
   color: #e6962e;
-  font-family: Croissant One, Arial, Helvetica, sans-serif;
+  font-family: "Croissant One", Arial, Helvetica, sans-serif;
   box-shadow: 0px 0px 10px 5px lightgrey;
   padding: 75px 15px;
   width: 300px;
@@ -176,7 +176,7 @@ footer a:hover {
 }
 #index #Menu3 {
   background-color: #f9f9f9;
-  font-family: akaDora, Arial, Helvetica, sans-serif;
+  font-family: "akaDora", Arial, Helvetica, sans-serif;
   box-shadow: 0px 0px 10px 5px lightgrey;
   padding: 75px 15px;
   width: 300px;
@@ -194,13 +194,13 @@ footer a:hover {
   color: transparent;
 }
 #index #Menu3 h1 {
-  font-family: cursive;
+  font-family: "Segoe Print", Arial, Helvetica, sans-serif;
   font-weight: normal;
   color: #1a91fa;
 }
 #index #Menu4 {
   background-color: white;
-  font-family: Kaushan Script, Arial, Helvetica, sans-serif;
+  font-family: "Kaushan Script", Arial, Helvetica, sans-serif;
   box-shadow: 0px 0px 10px 5px lightgrey;
   padding: 75px 15px;
   width: 300px;
@@ -218,7 +218,7 @@ footer a:hover {
   color: transparent;
 }
 #index #Menu4 h1 {
-  font-family: cursive;
+  font-family: "Segoe Print", Arial, Helvetica, sans-serif;
   font-weight: normal;
   color: #7ec75e;
 }
@@ -233,24 +233,19 @@ button {
 }
 
 /* Page Menu */
-
-.Menu
-{
+.Menu {
   display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
+  font-family: "Segoe Print", Arial, Helvetica, sans-serif;
 }
 
 .Titre {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
 }
-
-
-/*Menu 1*/
 
 #PremierMenu {
   background-color: #fcdfdb;
@@ -259,7 +254,20 @@ button {
   text-align: center;
 }
 #PremierMenu h2 {
-  font-family: Devonshire-Regular, Arial, Helvetica, sans-serif;
+  font-family: "Devonshire-Regular", Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+#EntreeM1 h3 {
+  font-size: 25px;
+}
+#EntreeM1 .Plats {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  margin: 1px 15px 1px 20px;
+  font-size: 15px;
 }
 
 /*# sourceMappingURL=Style.css.map */

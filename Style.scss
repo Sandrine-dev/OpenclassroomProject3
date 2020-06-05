@@ -153,7 +153,7 @@ header /*finit*/
 {
     @include head-foot;
     text-align: center;
-    font-family: familiar_probold, Arial, Helvetica, sans-serif;
+    font-family: 'familiar_probold', Arial, Helvetica, sans-serif;
     font-size: 20px;
     padding: 1px;
 }
@@ -208,7 +208,7 @@ footer /* manque animation*/
 
     #Menu1{
         background-color: $Peche;
-        font-family: Devonshire-Regular, Arial, Helvetica, sans-serif;
+        font-family: 'Devonshire-Regular', Arial, Helvetica, sans-serif;
         @include Box-menu;
         i{
             font-size: 50px;
@@ -218,7 +218,7 @@ footer /* manque animation*/
             color: $Marron;
         }
         h1{
-            font-family: cursive;
+            font-family: 'Segoe Print', Arial, Helvetica, sans-serif;
             font-weight: normal;
         }
     }
@@ -228,7 +228,7 @@ footer /* manque animation*/
     #Menu2{
         background-color: $Rose;
         color: $Orange;
-        font-family: Croissant One, Arial, Helvetica, sans-serif;
+        font-family: 'Croissant One', Arial, Helvetica, sans-serif;
         @include Box-menu;
         p{
             font-size: 20px;
@@ -241,13 +241,13 @@ footer /* manque animation*/
     
     #Menu3{
         background-color: $Gris;
-        font-family: akaDora, Arial, Helvetica, sans-serif;
+        font-family: 'akaDora', Arial, Helvetica, sans-serif;
         @include Box-menu;
         p{
             @include menu3;
         }
         h1{
-            font-family: cursive;
+            font-family: 'Segoe Print', Arial, Helvetica, sans-serif;
             font-weight: normal;
             color: $Bleu;
         }
@@ -255,13 +255,13 @@ footer /* manque animation*/
     
     #Menu4{
         background-color: white;
-        font-family: Kaushan Script, Arial, Helvetica, sans-serif;
+        font-family: 'Kaushan Script', Arial, Helvetica, sans-serif;
         @include Box-menu;
         p{
             @include menu4;
         }
         h1{
-            font-family: cursive;
+            font-family: 'Segoe Print', Arial, Helvetica, sans-serif;
             font-weight: normal;
             color: $Vertlight;
         }
@@ -280,11 +280,18 @@ button
 
 /* Page Menu */
 
+.Menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Segoe Print', Arial, Helvetica, sans-serif;
+}
+
 .Titre
 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
 }
 
@@ -295,5 +302,21 @@ button
     width: 600px;
     text-align: center;
     h2{
-        font-family: Devonshire-Regular, Arial, Helvetica, sans-serif;}
+        font-family: 'Devonshire-Regular', Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        font-weight: normal;}
+}
+
+#EntreeM1
+{
+    h3{
+        font-size: 25px;
+    }
+    .Plats{
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+        margin: 1px 15px 1px 20px;
+        font-size: 15px;
+    }
 }
