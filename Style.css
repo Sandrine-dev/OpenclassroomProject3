@@ -239,6 +239,9 @@ button {
   align-items: center;
   font-family: "Segoe Print", Arial, Helvetica, sans-serif;
 }
+.Menu h3 {
+  font-size: 20px;
+}
 
 .Titre {
   font-family: Arial, Helvetica, sans-serif;
@@ -247,6 +250,15 @@ button {
   text-align: center;
 }
 
+.Plats {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  margin: 1px 15px 1px 20px;
+  font-size: 15px;
+}
+
+/*Menu 1*/
 #PremierMenu {
   background-color: #fcdfdb;
   margin-bottom: 60px;
@@ -259,12 +271,7 @@ button {
   font-weight: normal;
 }
 
-#EntreeM1 h3 {
-  font-size: 25px;
-}
-#EntreeM1 .Plats {
-  display: flex;
-  justify-content: space-between;
+#DessertM1 .PlatsM1 {
   text-align: left;
   margin: 1px 15px 1px 20px;
   font-size: 15px;
