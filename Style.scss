@@ -88,7 +88,7 @@ $Jaune: #ffcc44;
 $VertF: #579c87;
 $Peche: #fcdfdb;
 $Rose: #fff5fe;
-$Gris: #f9f9f9;
+$Gris: #EEEEEE;
 $Marron: #3d1219;
 $Orange: #e6962e;
 $Bleu: #1a91fa;
@@ -326,4 +326,50 @@ button
         margin: 1px 15px 1px 20px;
         font-size: 15px;
     }
+}
+
+/*Menu 2*/
+
+#DeuxiemeMenu
+{
+    background-color: $Rose;
+    margin-bottom: 60px;
+    width: 600px;
+    text-align: center;
+    font-family: 'Croissant One', Arial, Helvetica, sans-serif;
+    h2{
+        font-size: 30px;
+        font-weight: normal;}
+}
+
+#DessertM2{
+    .PlatsM2{
+        text-align: left;
+        margin: 1px 15px 1px 20px;
+        font-size: 15px;
+    }
+}
+
+#TroisiemeMenu
+{
+    background-color: $Gris;
+    margin-bottom: 60px;
+    width: 600px;
+    text-align: center;
+    h2{
+        font-family: 'akaDora', Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        font-weight: normal;}
+}
+
+#QuatriemeMenu
+{
+    background-color: white;
+    margin-bottom: 60px;
+    width: 600px;
+    text-align: center;
+    h2{
+        font-family: 'Kaushan Script', Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        font-weight: normal;}
 }

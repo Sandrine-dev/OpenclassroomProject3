@@ -175,7 +175,7 @@ footer a:hover {
   font-weight: normal;
 }
 #index #Menu3 {
-  background-color: #f9f9f9;
+  background-color: #EEEEEE;
   font-family: "akaDora", Arial, Helvetica, sans-serif;
   box-shadow: 0px 0px 10px 5px lightgrey;
   padding: 75px 15px;
@@ -275,6 +275,49 @@ button {
   text-align: left;
   margin: 1px 15px 1px 20px;
   font-size: 15px;
+}
+
+/*Menu 2*/
+#DeuxiemeMenu {
+  background-color: #fff5fe;
+  margin-bottom: 60px;
+  width: 600px;
+  text-align: center;
+  font-family: "Croissant One", Arial, Helvetica, sans-serif;
+}
+#DeuxiemeMenu h2 {
+  font-size: 30px;
+  font-weight: normal;
+}
+
+#DessertM2 .PlatsM2 {
+  text-align: left;
+  margin: 1px 15px 1px 20px;
+  font-size: 15px;
+}
+
+#TroisiemeMenu {
+  background-color: #EEEEEE;
+  margin-bottom: 60px;
+  width: 600px;
+  text-align: center;
+}
+#TroisiemeMenu h2 {
+  font-family: "akaDora", Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+#QuatriemeMenu {
+  background-color: white;
+  margin-bottom: 60px;
+  width: 600px;
+  text-align: center;
+}
+#QuatriemeMenu h2 {
+  font-family: "Kaushan Script", Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: normal;
 }
 
 /*# sourceMappingURL=Style.css.map */
