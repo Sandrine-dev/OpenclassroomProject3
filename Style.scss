@@ -146,9 +146,10 @@ $Vertlight: #7ec75e;
 
 @mixin Menu-page {
     margin-bottom: 60px;
-    width: 600px;
+    width: 650px;
     box-shadow: 0px 0px 10px 5px lightgrey;
     text-align: center;
+    padding: 15px 30px 15px 30px;
 }
 
 
@@ -316,6 +317,13 @@ img{
     width: 200px;
     }
 
+.stitre{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
 /*Menu 1*/
 
 #PremierMenu
@@ -360,13 +368,6 @@ img{
     }
 }
 
-.stitrem1{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
-}
-
 /*Menu 2*/
 
 #DeuxiemeMenu
@@ -378,6 +379,10 @@ img{
     h2{
         font-size: 30px;
         font-weight: normal;}
+    h3{
+        font-weight: normal;
+        font-size: 20px;
+    }
 }
 
 #DessertM2{

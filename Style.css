@@ -262,13 +262,21 @@ img {
   width: 200px;
 }
 
+.stitre {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
 /*Menu 1*/
 #PremierMenu {
   background-color: #fcdfdb;
   margin-bottom: 60px;
-  width: 600px;
+  width: 650px;
   box-shadow: 0px 0px 10px 5px lightgrey;
   text-align: center;
+  padding: 15px 30px 15px 30px;
 }
 #PremierMenu h2 {
   font-family: "Devonshire-Regular", Arial, Helvetica, sans-serif;
@@ -307,26 +315,24 @@ img {
   font-size: 15px;
 }
 
-.stitrem1 {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  align-items: center;
-}
-
 /*Menu 2*/
 #DeuxiemeMenu {
   background-color: #fff5fe;
   margin-bottom: 60px;
-  width: 600px;
+  width: 650px;
   box-shadow: 0px 0px 10px 5px lightgrey;
   text-align: center;
+  padding: 15px 30px 15px 30px;
   text-align: center;
   font-family: "Croissant One", Arial, Helvetica, sans-serif;
 }
 #DeuxiemeMenu h2 {
   font-size: 30px;
   font-weight: normal;
+}
+#DeuxiemeMenu h3 {
+  font-weight: normal;
+  font-size: 20px;
 }
 
 #DessertM2 .PlatsM2 {
@@ -338,9 +344,10 @@ img {
 #TroisiemeMenu {
   background-color: #EEEEEE;
   margin-bottom: 60px;
-  width: 600px;
+  width: 650px;
   box-shadow: 0px 0px 10px 5px lightgrey;
   text-align: center;
+  padding: 15px 30px 15px 30px;
 }
 #TroisiemeMenu h2 {
   font-family: "akaDora", Arial, Helvetica, sans-serif;
@@ -351,9 +358,10 @@ img {
 #QuatriemeMenu {
   background-color: white;
   margin-bottom: 60px;
-  width: 600px;
+  width: 650px;
   box-shadow: 0px 0px 10px 5px lightgrey;
   text-align: center;
+  padding: 15px 30px 15px 30px;
 }
 #QuatriemeMenu h2 {
   font-family: "Kaushan Script", Arial, Helvetica, sans-serif;
