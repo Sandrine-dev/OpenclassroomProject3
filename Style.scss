@@ -93,6 +93,8 @@ $Marron: #3d1219;
 $Orange: #e6962e;
 $Bleu: #1a91fa;
 $Vertlight: #7ec75e;
+$Violet: #a56799;
+$Violetf: #6e4ccc;
 
 
 
@@ -333,9 +335,14 @@ img{
     h2{
         font-family: 'Devonshire-Regular', Arial, Helvetica, sans-serif;
         font-size: 30px;
-        font-weight: normal;}
+        font-weight: normal;
+        color: $Marron;
+    }
     i{
         @include menu1;
+    }
+    h3, p{
+        color: $Marron;
     }
 }
 
@@ -378,10 +385,20 @@ img{
     font-family: 'Croissant One', Arial, Helvetica, sans-serif;
     h2{
         font-size: 30px;
-        font-weight: normal;}
+        font-weight: normal;
+        @include menu2}
     h3{
         font-weight: normal;
         font-size: 20px;
+    }
+    #EntreeM2{
+        color: $Orange;
+    }
+    #PlatprincipalM2{
+        color: $Violet;
+    }
+    #DessertM2{
+        color: $Violetf;
     }
 }
 
@@ -399,8 +416,9 @@ img{
     @include Menu-page;
     h2{
         font-family: 'akaDora', Arial, Helvetica, sans-serif;
-        font-size: 30px;
-        font-weight: normal;}
+        font-size: 55px;
+        font-weight: normal;
+        @include menu3;}
 }
 
 #QuatriemeMenu
@@ -409,6 +427,7 @@ img{
     @include Menu-page;
     h2{
         font-family: 'Kaushan Script', Arial, Helvetica, sans-serif;
-        font-size: 30px;
-        font-weight: normal;}
+        font-size: 55px;
+        font-weight: normal;
+    @include menu4;}
 }

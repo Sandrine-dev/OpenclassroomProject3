@@ -282,12 +282,16 @@ img {
   font-family: "Devonshire-Regular", Arial, Helvetica, sans-serif;
   font-size: 30px;
   font-weight: normal;
+  color: #3d1219;
 }
 #PremierMenu i {
   background: linear-gradient(to right, #f05160, #f6916a);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+}
+#PremierMenu h3, #PremierMenu p {
+  color: #3d1219;
 }
 
 #HautM1 i {
@@ -329,10 +333,23 @@ img {
 #DeuxiemeMenu h2 {
   font-size: 30px;
   font-weight: normal;
+  background-image: linear-gradient(to right, #e6962e, #905cff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 #DeuxiemeMenu h3 {
   font-weight: normal;
   font-size: 20px;
+}
+#DeuxiemeMenu #EntreeM2 {
+  color: #e6962e;
+}
+#DeuxiemeMenu #PlatprincipalM2 {
+  color: #a56799;
+}
+#DeuxiemeMenu #DessertM2 {
+  color: #6e4ccc;
 }
 
 #DessertM2 .PlatsM2 {
@@ -351,8 +368,12 @@ img {
 }
 #TroisiemeMenu h2 {
   font-family: "akaDora", Arial, Helvetica, sans-serif;
-  font-size: 30px;
+  font-size: 55px;
   font-weight: normal;
+  background-image: linear-gradient(to right, #2451e4, #1a91fa);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 #QuatriemeMenu {
@@ -365,8 +386,12 @@ img {
 }
 #QuatriemeMenu h2 {
   font-family: "Kaushan Script", Arial, Helvetica, sans-serif;
-  font-size: 30px;
+  font-size: 55px;
   font-weight: normal;
+  background-image: linear-gradient(to right, #61ad54, #bdfe7e);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 /*# sourceMappingURL=Style.css.map */
