@@ -80,6 +80,10 @@ header {
   font-size: 20px;
   padding: 1px;
 }
+header a {
+  text-decoration: none;
+  color: #ffcc44;
+}
 
 footer {
   background-color: #579c87;
