@@ -228,6 +228,13 @@ footer a:hover {
 }
 #index a {
   text-decoration: none;
+  transform: scale(1) opacity(1);
+  transition-property: transform;
+  transition-duration: 1s;
+}
+#index a:hover {
+  transform: scale(1.5);
+  opacity: 0.5;
 }
 
 button {
