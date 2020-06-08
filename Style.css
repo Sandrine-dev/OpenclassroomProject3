@@ -226,6 +226,9 @@ footer a:hover {
   font-weight: normal;
   color: #7ec75e;
 }
+#index a {
+  text-decoration: none;
+}
 
 button {
   background-color: #579c87;
