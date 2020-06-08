@@ -312,6 +312,10 @@ button
     font-size: 15px;
 }
 
+img{
+    width: 200px;
+    }
+
 /*Menu 1*/
 
 #PremierMenu
@@ -354,6 +358,13 @@ button
         margin: 1px 15px 1px 20px;
         font-size: 15px;
     }
+}
+
+.stitrem1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
 }
 
 /*Menu 2*/
