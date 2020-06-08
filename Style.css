@@ -69,6 +69,23 @@
     transform: translate(1px, -2px) rotate(-1deg);
   }
 }
+@keyframes points {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 /*couleur*/
 /*Mixin*/
 /*sur toutes les pages*/
@@ -245,6 +262,17 @@ button {
   font-size: 20px;
   padding: 0px 25px;
 }
+button p em {
+  animation: 0.3s;
+  font-size: 25px;
+  animation: points 1.5s infinite;
+}
+button p em:nth-child(2) {
+  animation-delay: 0.5s;
+}
+button p em:nth-child(3) {
+  animation-delay: 1s;
+}
 
 /* Page Menu */
 .Menu {
@@ -406,6 +434,22 @@ img {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+}
+
+/* Mentions légales*/
+#Mentionslegales {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 60px;
+}
+#Mentionslegales article {
+  text-align: center;
+}
+#Mentionslegales article h1 {
+  font-size: 30px;
+  color: #ffcc44;
 }
 
 /*# sourceMappingURL=Style.css.map */

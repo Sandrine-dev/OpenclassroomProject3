@@ -79,7 +79,16 @@
     80% { transform: translate(-1px, -1px) rotate(1deg); }
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
-  }
+}
+
+@keyframes points {
+    0% { opacity: 0; }
+    25% { opacity: 0.5; }
+    50% { opacity: 1; }
+    75% { opacity: 0.5; }
+    100% { opacity: 0; }
+}
+
 
 
 /*couleur*/
@@ -299,6 +308,17 @@ button
     border-radius: 15px;
     font-size: 20px;
     padding: 0px 25px;
+    p em{
+        animation: 0.3s;
+        font-size: 25px;
+        animation: points 1.5s infinite;
+        &:nth-child(2){
+            animation-delay: 0.5s;
+        }
+        &:nth-child(3){
+            animation-delay: 1s;
+        }
+    }
 }
 
 
@@ -444,4 +464,23 @@ img{
         font-size: 55px;
         font-weight: normal;
     @include menu4;}
+}
+
+
+/* Mentions légales*/
+
+#Mentionslegales{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 60px;
+
+    article{
+        text-align: center;
+        h1{
+            font-size: 30px;
+            color: $Jaune;
+        }
+    }
 }
