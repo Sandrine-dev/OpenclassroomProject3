@@ -318,6 +318,30 @@ button
         font-family: 'Devonshire-Regular', Arial, Helvetica, sans-serif;
         font-size: 30px;
         font-weight: normal;}
+    i{
+        @include menu1;
+    }
+}
+
+#HautM1{
+    i{
+        font-size: 65px;
+        margin-top: 20px;
+    }
+}
+
+#BasM1{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    i{
+        font-size: 30px;
+        padding-right: 10px;
+    }
+    h2{
+        margin-right: 10px;
+    }
 }
 
 #DessertM1{

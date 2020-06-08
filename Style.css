@@ -270,6 +270,31 @@ button {
   font-size: 30px;
   font-weight: normal;
 }
+#PremierMenu i {
+  background: linear-gradient(to right, #f05160, #f6916a);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+#HautM1 i {
+  font-size: 65px;
+  margin-top: 20px;
+}
+
+#BasM1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+#BasM1 i {
+  font-size: 30px;
+  padding-right: 10px;
+}
+#BasM1 h2 {
+  margin-right: 10px;
+}
 
 #DessertM1 .PlatsM1 {
   text-align: left;
