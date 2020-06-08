@@ -144,6 +144,12 @@ $Vertlight: #7ec75e;
     color: transparent;
 }
 
+@mixin Menu-page {
+    margin-bottom: 60px;
+    width: 600px;
+    box-shadow: 0px 0px 10px 5px lightgrey;
+    text-align: center;
+}
 
 
 
@@ -311,9 +317,7 @@ button
 #PremierMenu
 {
     background-color: $Peche;
-    margin-bottom: 60px;
-    width: 600px;
-    text-align: center;
+    @include Menu-page;
     h2{
         font-family: 'Devonshire-Regular', Arial, Helvetica, sans-serif;
         font-size: 30px;
@@ -357,8 +361,7 @@ button
 #DeuxiemeMenu
 {
     background-color: $Rose;
-    margin-bottom: 60px;
-    width: 600px;
+    @include Menu-page;
     text-align: center;
     font-family: 'Croissant One', Arial, Helvetica, sans-serif;
     h2{
@@ -377,9 +380,7 @@ button
 #TroisiemeMenu
 {
     background-color: $Gris;
-    margin-bottom: 60px;
-    width: 600px;
-    text-align: center;
+    @include Menu-page;
     h2{
         font-family: 'akaDora', Arial, Helvetica, sans-serif;
         font-size: 30px;
@@ -389,9 +390,7 @@ button
 #QuatriemeMenu
 {
     background-color: white;
-    margin-bottom: 60px;
-    width: 600px;
-    text-align: center;
+    @include Menu-page;
     h2{
         font-family: 'Kaushan Script', Arial, Helvetica, sans-serif;
         font-size: 30px;
