@@ -121,7 +121,7 @@ footer a {
   color: #ffcc44;
 }
 footer a:hover {
-  animation: shake 0.01s infinite;
+  animation: shake 0.5s infinite;
 }
 
 /*Page Index*/
@@ -133,14 +133,7 @@ footer a:hover {
   padding-top: 15px;
   padding-bottom: 55px;
 }
-#index #PresentaionM {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  align-items: center;
-  padding-bottom: 10px;
-}
-#index #PresentaionM #ligne1, #index #PresentaionM #ligne2 {
+#index #ligne1, #index #ligne2 {
   display: flex;
   flex-direction: row;
 }
@@ -164,12 +157,13 @@ footer a:hover {
   background-clip: text;
   color: transparent;
 }
-#index #Menu1 h1, #index #Menu1 p {
+#index #Menu1 h2, #index #Menu1 h3 {
   color: #3d1219;
-}
-#index #Menu1 h1 {
-  font-family: "Segoe Print", Arial, Helvetica, sans-serif;
   font-weight: normal;
+  font-size: 30px;
+}
+#index #Menu1 h3 {
+  font-family: "Segoe Print", Arial, Helvetica, sans-serif;
 }
 #index #Menu2 {
   background-color: #fff5fe;
@@ -185,14 +179,15 @@ footer a:hover {
   flex-direction: column;
   text-align: center;
 }
-#index #Menu2 p {
-  font-size: 20px;
+#index #Menu2 h2 {
   background-image: linear-gradient(to right, #e6962e, #905cff);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+  font-weight: normal;
+  font-size: 20px;
 }
-#index #Menu2 h1 {
+#index #Menu2 h3 {
   font-weight: normal;
 }
 #index #Menu3 {
@@ -208,13 +203,15 @@ footer a:hover {
   flex-direction: column;
   text-align: center;
 }
-#index #Menu3 p {
+#index #Menu3 h2 {
   background-image: linear-gradient(to right, #2451e4, #1a91fa);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+  font-weight: normal;
+  font-size: 30px;
 }
-#index #Menu3 h1 {
+#index #Menu3 h3 {
   font-family: "Segoe Print", Arial, Helvetica, sans-serif;
   font-weight: normal;
   color: #1a91fa;
@@ -232,13 +229,15 @@ footer a:hover {
   flex-direction: column;
   text-align: center;
 }
-#index #Menu4 p {
+#index #Menu4 h2 {
   background-image: linear-gradient(to right, #61ad54, #bdfe7e);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+  font-weight: normal;
+  font-size: 30px;
 }
-#index #Menu4 h1 {
+#index #Menu4 h3 {
   font-family: "Segoe Print", Arial, Helvetica, sans-serif;
   font-weight: normal;
   color: #7ec75e;
@@ -247,7 +246,8 @@ footer a:hover {
   text-decoration: none;
 }
 #index .animation {
-  transform: scale(1) opacity(1);
+  transform: scale(1);
+  opacity: 1;
   transition-property: transform;
   transition-duration: 2s;
 }
@@ -256,23 +256,28 @@ footer a:hover {
   opacity: 0.5;
 }
 
-button {
+aside {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 65px;
+}
+aside button {
   background-color: #579c87;
   color: #ffcc44;
   border: 1px solid #579c87;
   border-radius: 15px;
   font-size: 20px;
-  padding: 0px 25px;
+  padding: 15px 25px;
 }
-button p em {
+aside button em {
   animation: 0.3s;
   font-size: 25px;
   animation: points 1.5s infinite;
 }
-button p em:nth-child(2) {
+aside button em:nth-child(2) {
   animation-delay: 0.5s;
 }
-button p em:nth-child(3) {
+aside button em:nth-child(3) {
   animation-delay: 1s;
 }
 
@@ -311,16 +316,25 @@ img {
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
+  transition: all 0.2s ease-in-out;
+  position: relative;
 }
-.stitre h3:hover {
-  text-decoration: underline;
+.stitre h3 {
+  background-image: linear-gradient(transparent calc( 100% - 3px ), black 3px);
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-size: 0% 100%;
+  transition: background-size 0.55s ease-in-out;
+}
+.stitre h3:hover, .stitre h3:focus {
+  background-size: 100% 100%;
 }
 
 /*Menu 1*/
 #PremierMenu {
   background-color: #fcdfdb;
   margin-bottom: 60px;
-  width: 650px;
+  width: 700px;
   box-shadow: 0px 0px 10px 5px lightgrey;
   text-align: center;
   padding: 15px 30px 15px 30px;
@@ -370,7 +384,7 @@ img {
 #DeuxiemeMenu {
   background-color: #fff5fe;
   margin-bottom: 60px;
-  width: 650px;
+  width: 700px;
   box-shadow: 0px 0px 10px 5px lightgrey;
   text-align: center;
   padding: 15px 30px 15px 30px;
@@ -408,7 +422,7 @@ img {
 #TroisiemeMenu {
   background-color: #EEEEEE;
   margin-bottom: 60px;
-  width: 650px;
+  width: 700px;
   box-shadow: 0px 0px 10px 5px lightgrey;
   text-align: center;
   padding: 15px 30px 15px 30px;
@@ -426,7 +440,7 @@ img {
 #QuatriemeMenu {
   background-color: white;
   margin-bottom: 60px;
-  width: 650px;
+  width: 700px;
   box-shadow: 0px 0px 10px 5px lightgrey;
   text-align: center;
   padding: 15px 30px 15px 30px;
@@ -449,18 +463,20 @@ img {
   font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 60px;
 }
-#Mentionslegales article {
-  text-align: center;
-}
-#Mentionslegales article h1 {
+#Mentionslegales h1 {
   font-size: 30px;
   color: #ffcc44;
+  text-align: center;
+}
+#Mentionslegales article {
+  text-align: center;
 }
 
 /*Version tablette*/
 @media screen and (max-width: 750px) {
   /*Index*/
   #ligne1, #ligne2 {
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
