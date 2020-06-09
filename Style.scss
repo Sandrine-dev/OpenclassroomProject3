@@ -130,28 +130,24 @@ $Violetf: #6e4ccc;
 @mixin menu1 {
     background: linear-gradient(to right, #f05160, #f6916a);
     -webkit-background-clip: text;
-    background-clip: text;
     color: transparent;
 }
 
 @mixin menu2 {
     background-image: linear-gradient(to right, #e6962e, #905cff);
     -webkit-background-clip: text;
-    background-clip: text;
     color: transparent;
 }
 
 @mixin menu3 {
     background-image: linear-gradient(to right, #2451e4, #1a91fa);
     -webkit-background-clip: text;
-    background-clip: text;
     color: transparent;
 }
 
 @mixin menu4 {
     background-image: linear-gradient(to right, #61ad54, #bdfe7e);
     -webkit-background-clip: text;
-    background-clip: text;
     color: transparent;
 }
 

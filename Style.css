@@ -154,7 +154,6 @@ footer a:hover {
   font-size: 50px;
   background: linear-gradient(to right, #f05160, #f6916a);
   -webkit-background-clip: text;
-  background-clip: text;
   color: transparent;
 }
 #index #Menu1 h2, #index #Menu1 h3 {
@@ -182,7 +181,6 @@ footer a:hover {
 #index #Menu2 h2 {
   background-image: linear-gradient(to right, #e6962e, #905cff);
   -webkit-background-clip: text;
-  background-clip: text;
   color: transparent;
   font-weight: normal;
   font-size: 20px;
@@ -206,7 +204,6 @@ footer a:hover {
 #index #Menu3 h2 {
   background-image: linear-gradient(to right, #2451e4, #1a91fa);
   -webkit-background-clip: text;
-  background-clip: text;
   color: transparent;
   font-weight: normal;
   font-size: 30px;
@@ -232,7 +229,6 @@ footer a:hover {
 #index #Menu4 h2 {
   background-image: linear-gradient(to right, #61ad54, #bdfe7e);
   -webkit-background-clip: text;
-  background-clip: text;
   color: transparent;
   font-weight: normal;
   font-size: 30px;
@@ -348,7 +344,6 @@ img {
 #PremierMenu i {
   background: linear-gradient(to right, #f05160, #f6916a);
   -webkit-background-clip: text;
-  background-clip: text;
   color: transparent;
 }
 #PremierMenu h3, #PremierMenu p {
@@ -396,7 +391,6 @@ img {
   font-weight: normal;
   background-image: linear-gradient(to right, #e6962e, #905cff);
   -webkit-background-clip: text;
-  background-clip: text;
   color: transparent;
 }
 #DeuxiemeMenu h3 {
@@ -433,7 +427,6 @@ img {
   font-weight: normal;
   background-image: linear-gradient(to right, #2451e4, #1a91fa);
   -webkit-background-clip: text;
-  background-clip: text;
   color: transparent;
 }
 
@@ -451,7 +444,6 @@ img {
   font-weight: normal;
   background-image: linear-gradient(to right, #61ad54, #bdfe7e);
   -webkit-background-clip: text;
-  background-clip: text;
   color: transparent;
 }
 
