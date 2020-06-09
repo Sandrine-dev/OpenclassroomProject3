@@ -178,7 +178,6 @@ header /*finit*/
     a{
         text-decoration: none;
         color: $Jaune;}
-
 }
 
 footer /* manque animation*/
@@ -291,14 +290,15 @@ footer /* manque animation*/
     }
     a{
         text-decoration: none;
+    }    
+    .animation{
         transform: scale(1) opacity(1);
         transition-property: transform;
-        transition-duration: 1s;
-        &:hover{
-            transform: scale(1.5);
+        transition-duration: 2s;
+            &:hover{
+            transform: scale(1.25);
             opacity: 0.5;
         }
-
     }
 }
 

@@ -245,12 +245,14 @@ footer a:hover {
 }
 #index a {
   text-decoration: none;
+}
+#index .animation {
   transform: scale(1) opacity(1);
   transition-property: transform;
-  transition-duration: 1s;
+  transition-duration: 2s;
 }
-#index a:hover {
-  transform: scale(1.5);
+#index .animation:hover {
+  transform: scale(1.25);
   opacity: 0.5;
 }
 
