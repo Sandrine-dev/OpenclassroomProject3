@@ -488,3 +488,16 @@ img{
         }
     }
 }
+
+
+/*Version tablette*/
+@media screen and (max-width: 750px) {
+    
+    /*Index*/
+
+    #ligne1, #ligne2{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+}
