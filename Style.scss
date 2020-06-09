@@ -178,6 +178,7 @@ header /*finit*/
     a{
         text-decoration: none;
         color: $Jaune;}
+
 }
 
 footer /* manque animation*/
@@ -358,6 +359,9 @@ img{
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
+    h3:hover{
+        text-decoration: underline;
+    }
 }
 
 /*Menu 1*/

@@ -310,6 +310,9 @@ img {
   flex-direction: row;
   align-items: center;
 }
+.stitre h3:hover {
+  text-decoration: underline;
+}
 
 /*Menu 1*/
 #PremierMenu {
