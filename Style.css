@@ -297,6 +297,7 @@ aside button em:nth-child(3) {
 
 .Plats {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   text-align: left;
   margin: 1px 15px 1px 20px;
@@ -324,6 +325,12 @@ img {
 }
 .stitre h3:hover, .stitre h3:focus {
   background-size: 100% 100%;
+}
+
+.PlatsP {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 /*Menu 1*/
@@ -413,6 +420,7 @@ img {
   font-size: 15px;
 }
 
+/*Menu 3*/
 #TroisiemeMenu {
   background-color: #EEEEEE;
   margin-bottom: 60px;
@@ -430,6 +438,7 @@ img {
   color: transparent;
 }
 
+/*Menu 4*/
 #QuatriemeMenu {
   background-color: white;
   margin-bottom: 60px;
@@ -464,13 +473,54 @@ img {
   text-align: center;
 }
 
-/*Version tablette*/
-@media screen and (max-width: 750px) {
-  /*Index*/
-  #ligne1, #ligne2 {
+/*Index version téléphone*/
+@media (max-width: 720px) {
+  #PresentaionM {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+  }
+  #PresentaionM #ligne1, #PresentaionM #ligne2 {
+    display: flex;
+    flex-direction: column;
+  }
+  #PresentaionM #ligne1 #Menu1, #PresentaionM #ligne1 #Menu2, #PresentaionM #ligne1 #Menu3, #PresentaionM #ligne1 #Menu4, #PresentaionM #ligne2 #Menu1, #PresentaionM #ligne2 #Menu2, #PresentaionM #ligne2 #Menu3, #PresentaionM #ligne2 #Menu4 {
+    width: 250px;
+  }
+}
+/*Menu version téléphone*/
+@media (max-width: 800px) {
+  #PremierMenu, #DeuxiemeMenu, #TroisiemeMenu, #QuatriemeMenu {
+    width: 500px;
+  }
+  #PremierMenu img, #DeuxiemeMenu img, #TroisiemeMenu img, #QuatriemeMenu img {
+    width: 100px;
+  }
+}
+@media (max-width: 580px) {
+  #PremierMenu, #DeuxiemeMenu, #TroisiemeMenu, #QuatriemeMenu {
+    width: 250px;
+  }
+  #PremierMenu .stitre, #DeuxiemeMenu .stitre, #TroisiemeMenu .stitre, #QuatriemeMenu .stitre {
+    text-align: center;
+    justify-content: center;
+  }
+  #PremierMenu img, #DeuxiemeMenu img, #TroisiemeMenu img, #QuatriemeMenu img {
+    display: none;
+  }
+
+  .PlatsP {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #DessertM1 .PlatsM1, #DessertM1 .PlatsM2, #DessertM2 .PlatsM1, #DessertM2 .PlatsM2 {
+    text-align: center;
+  }
+}
+@media (max-width: 340px) {
+  #PremierMenu, #DeuxiemeMenu, #TroisiemeMenu, #QuatriemeMenu {
+    width: 200px;
   }
 }
 
