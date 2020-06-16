@@ -83,10 +83,10 @@
 
 @keyframes points {
     0% { opacity: 0; }
-    25% { opacity: 0.5; }
-    50% { opacity: 1; }
-    75% { opacity: 0.5; }
-    100% { opacity: 0; }
+    25% { opacity: 0.25; }
+    50% { opacity: 0.5; }
+    75% { opacity: 0.75; }
+    100% { opacity: 1; }
 }
 
 
@@ -448,12 +448,18 @@ img{
     }
     #EntreeM2{
         color: $Orange;
+        h3{
+        background-image: linear-gradient( transparent calc( 100% - 3px ), $Orange 3px );}
     }
     #PlatprincipalM2{
         color: $Violet;
+        h3{
+            background-image: linear-gradient( transparent calc( 100% - 3px ), $Violet 3px );}
     }
     #DessertM2{
         color: $Violetf;
+        h3{
+            background-image: linear-gradient( transparent calc( 100% - 3px ), $Violetf 3px );}
     }
 }
 
@@ -564,4 +570,41 @@ img{
 @media (max-width: 340px) {
     #PremierMenu, #DeuxiemeMenu, #TroisiemeMenu, #QuatriemeMenu{
         width: 200px;}
+}
+
+/* sur écran plus grand que 1400px */
+
+@media all and (min-width: 1400px){
+
+    /* Index*/
+    #PresentaionM{
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        #ligne1, #ligne2{
+            align-content: space-around;
+            #Menu1, #Menu2, #Menu3, #Menu4{
+                width: 600px;
+                height: 500px;
+            }
+        }
+        .animation{
+            transform: scale(1);
+            opacity: 1;
+            transition-property: transform;
+            transition-duration: 2s;
+                &:hover{
+                transform: scale(2);
+                opacity: 0.5;
+            }
+        }
+    }
+
+    /*Menus*/
+    #PremierMenu, #DeuxiemeMenu, #TroisiemeMenu, #QuatriemeMenu{
+        width: 1200px;
+        img{
+            width: 400px;
+        }
+    }
 }
