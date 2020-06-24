@@ -461,6 +461,10 @@ img{
         h3{
             background-image: linear-gradient( transparent calc( 100% - 3px ), $Violetf 3px );}
     }
+    p{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
 }
 
 
@@ -483,6 +487,10 @@ img{
         font-size: 55px;
         font-weight: normal;
         @include menu3;}
+    p{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
 }
 
 /*Menu 4*/
@@ -496,6 +504,10 @@ img{
         font-size: 55px;
         font-weight: normal;
     @include menu4;}
+    p{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
 }
 
 
@@ -585,7 +597,7 @@ img{
             align-content: space-around;
             #Menu1, #Menu2, #Menu3, #Menu4{
                 width: 600px;
-                height: 500px;
+                height: 700px;
             }
         }
         .animation{

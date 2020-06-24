@@ -422,6 +422,10 @@ img {
 #DeuxiemeMenu #DessertM2 h3 {
   background-image: linear-gradient(transparent calc( 100% - 3px ), #6e4ccc 3px);
 }
+#DeuxiemeMenu p {
+  margin-left: 40px;
+  margin-right: 40px;
+}
 
 #DessertM2 .PlatsM2 {
   text-align: left;
@@ -446,6 +450,10 @@ img {
   -webkit-background-clip: text;
   color: transparent;
 }
+#TroisiemeMenu p {
+  margin-left: 40px;
+  margin-right: 40px;
+}
 
 /*Menu 4*/
 #QuatriemeMenu {
@@ -463,6 +471,10 @@ img {
   background-image: linear-gradient(to right, #61ad54, #bdfe7e);
   -webkit-background-clip: text;
   color: transparent;
+}
+#QuatriemeMenu p {
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 /* Mentions légales*/
@@ -545,7 +557,7 @@ img {
   }
   #PresentaionM #ligne1 #Menu1, #PresentaionM #ligne1 #Menu2, #PresentaionM #ligne1 #Menu3, #PresentaionM #ligne1 #Menu4, #PresentaionM #ligne2 #Menu1, #PresentaionM #ligne2 #Menu2, #PresentaionM #ligne2 #Menu3, #PresentaionM #ligne2 #Menu4 {
     width: 600px;
-    height: 500px;
+    height: 700px;
   }
   #PresentaionM .animation {
     transform: scale(1);
